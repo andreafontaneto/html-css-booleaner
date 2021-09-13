@@ -59,3 +59,21 @@ p .color-text{
 .lorem-list ul{
  padding-left: 15px;
 }
+
+table{
+  border-collapse: collapse;
+}
+
+.table-header{
+  font-weight: bold;
+  color: white;
+  background-color: rgb(44, 170, 226);
+}
+
+.tab-ext{
+  width: 50%;
+}
+
+.row-blue{
+  background-color: rgb(178, 229, 241);
+}
