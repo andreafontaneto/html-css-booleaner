@@ -12,6 +12,10 @@ header{
   background-size: contain;
 }
 
+main section{
+  margin-bottom: 30px;
+}
+
 #logo{
   width: 200px;
   height: 100px;
@@ -19,6 +23,7 @@ header{
   background-size: contain;
   background-repeat: no-repeat;
   background-position: left bottom;
+  margin-left: 5px;
 }
 
 main h1{
@@ -37,6 +42,10 @@ main p .author{
 main .data{
   font-size: 12px;
   margin-bottom: 20px;
+}
+
+.tim-images{
+  margin-bottom: 0;
 }
 
 .photo-description p{
@@ -77,3 +86,4 @@ table{
 .row-blue{
   background-color: rgb(178, 229, 241);
 }
+
