@@ -55,3 +55,7 @@ main .data{
 p .color-text{
   background-color: rgb(255, 255, 32);
 }
+
+.lorem-list ul{
+ padding-left: 15px;
+}
