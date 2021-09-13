@@ -38,3 +38,16 @@ main .data{
   font-size: 12px;
   margin-bottom: 20px;
 }
+
+.photo-description p{
+  font-size: 12px;
+}
+
+.first-desc{
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.second-desc{
+  margin-top: 0;
+}
