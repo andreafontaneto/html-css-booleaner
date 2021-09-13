@@ -1,0 +1,121 @@
+body{
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+}
+
+main{
+  width: 1200px;
+  margin: 0 auto;
+}
+
+header{
+  width: 100%;
+  height: 100px;
+  background-color: rgb(82, 162, 252);
+  background-image: url('../img/pattern.png');
+  background-repeat: repeat;
+  background-size: contain;
+}
+
+main section{
+  margin-bottom: 30px;
+}
+
+#logo{
+  width: 200px;
+  height: 100px;
+  background-image: url('../img/logo.svg');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: left bottom;
+  margin-left: 10px;
+}
+
+main h1{
+  font-size: 30px;
+  margin-bottom: 0;
+}
+
+main .who, .data{
+  color: grey;
+  margin: 0;
+}
+
+main p .author{
+  color: rgb(82, 162, 252);
+}
+
+main .data{
+  font-size: 12px;
+  margin-bottom: 20px;
+}
+
+.tim-images{
+  margin-bottom: 0;
+}
+
+.photo-description p{
+  font-size: 12px;
+}
+
+.first-desc{
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.second-desc{
+  margin-top: 0;
+}
+
+p .color-text{
+  background-color: rgb(255, 255, 32);
+}
+
+.lorem-list ul{
+ padding-left: 15px;
+}
+
+table{
+  border-collapse: collapse;
+}
+
+.table-header{
+  font-weight: bold;
+  color: white;
+  background-color: rgb(44, 170, 226);
+}
+
+.tab-ext{
+  width: 50%;
+}
+
+.row-blue{
+  background-color: rgb(178, 229, 241);
+}
+
+footer h3{
+  color: grey;
+}
+
+footer h3, footer section{
+  text-align: center;
+}
+
+footer div{
+  width: 250px;
+  position: relative;
+  display: inline-block;
+}
+
+footer div img{
+  max-width: 100%;
+}
+
+footer div p{
+  font-size: 20px;
+  color: white;
+  position: absolute;
+  left: 10px;
+  top: 0;
+}
+
