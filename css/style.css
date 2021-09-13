@@ -1,0 +1,22 @@
+body{
+  margin: 0;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+header{
+  width: 100%;
+  height: 100px;
+  background-color: rgb(82, 162, 252);
+  background-image: url('../img/pattern.png');
+  background-repeat: repeat;
+  background-size: contain;
+}
+
+#logo{
+  width: 200px;
+  height: 100px;
+  background-image: url('../img/logo.svg');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: left bottom;
+}
