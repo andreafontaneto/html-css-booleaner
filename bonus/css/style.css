@@ -51,7 +51,14 @@ main .data{
 }
 
 .tim-images{
+  width: 100%;
   margin-bottom: 0;
+}
+
+.tim-images img{
+  width: 50%;
+  height: 500px;
+  object-fit: cover;
 }
 
 .photo-description p{
@@ -65,6 +72,10 @@ main .data{
 
 .second-desc{
   margin-top: 0;
+}
+
+.lorem-paragraph{
+  text-align: justify;
 }
 
 p .color-text{
