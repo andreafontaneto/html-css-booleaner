@@ -3,10 +3,7 @@ body{
   font-family: 'Roboto', sans-serif;
 }
 
-main{
-  width: 1200px;
-  margin: 0 auto;
-}
+/******** HEADER *********/
 
 header{
   width: 100%;
@@ -17,10 +14,6 @@ header{
   background-size: contain;
 }
 
-main section{
-  margin-bottom: 30px;
-}
-
 #logo{
   width: 200px;
   height: 100px;
@@ -28,8 +21,20 @@ main section{
   background-size: contain;
   background-repeat: no-repeat;
   background-position: left bottom;
-  margin-left: 10px;
 }
+
+/******** MAIN *********/
+
+.container{
+  width: 80%;
+  margin: 0 auto;
+}
+
+main section{
+  margin-bottom: 30px;
+}
+
+/* Titolo e sottotitolo */
 
 main h1{
   font-size: 30px;
@@ -50,6 +55,8 @@ main .data{
   margin-bottom: 20px;
 }
 
+/* Immagini TIM */
+
 .tim-images{
   width: 100%;
   margin-bottom: 0;
@@ -60,6 +67,8 @@ main .data{
   height: 500px;
   object-fit: cover;
 }
+
+/* Photo Caption  */
 
 .photo-description p{
   font-size: 12px;
@@ -74,6 +83,8 @@ main .data{
   margin-top: 0;
 }
 
+/* Paragrafo */
+
 .lorem-paragraph{
   text-align: justify;
 }
@@ -82,9 +93,13 @@ p .color-text{
   background-color: rgb(255, 255, 32);
 }
 
+/* Lista non ordinata */
+
 .lorem-list ul{
  padding-left: 15px;
 }
+
+/* Tabella */
 
 table{
   border-collapse: collapse;
@@ -103,6 +118,8 @@ table{
 .row-blue{
   background-color: rgb(178, 229, 241);
 }
+
+/******** FOOTER *********/
 
 footer h3{
   color: grey;
